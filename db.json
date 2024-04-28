@@ -1,0 +1,119 @@
+{
+  "articles": [
+    {
+      "id": "930a4f0a-1746-40dc-9b6c-289c6b5ec8f6",
+      "title": "JSON:API paints my bikeshed!",
+      "body": "The shortest article. Ever.",
+      "created": "2015-05-22T14:56:29.000Z",
+      "updated": "2015-05-22T14:56:28.000Z",
+      "authorId": "cbca3b9f-72a9-4836-a57c-ef801d65edc6"
+    },
+    {
+      "id": "d850ea75-4427-4f81-8595-039990aeede5",
+      "title": "Praesent diam erat, malesuada non consectetur at, condimentum at risus.",
+      "body": "The shortest article. Ever.",
+      "created": "2015-05-22T14:56:29.000Z",
+      "updated": "2015-05-22T14:56:28.000Z",
+      "authorId": "cbca3b9f-72a9-4836-a57c-ef801d65edc6"
+    },
+    {
+      "id": "d850ea75-4427-4f81-8595-039990aeede5",
+      "title": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+      "body": "The shortest article. Ever.",
+      "created": "2015-05-22T14:56:29.000Z",
+      "updated": "2015-05-22T14:56:28.000Z",
+      "authorId": "cbca3b9f-72a9-4836-a57c-ef801d65edc6"
+    },
+    {
+      "id": "d850ea75-4427-4f81-8595-039990aeede5",
+      "title": "Duis nulla arcu, sollicitudin sit amet blandit eu, efficitur vel ex.",
+      "body": "The shortest article. Ever.",
+      "created": "2015-05-22T14:56:29.000Z",
+      "updated": "2015-05-22T14:56:28.000Z",
+      "authorId": "cbca3b9f-72a9-4836-a57c-ef801d65edc6"
+    },
+    {
+      "id": "d850ea75-4427-4f81-8595-039990aeede5",
+      "title": "Sed vel semper nisl. Etiam ac felis urna.",
+      "body": "The shortest article. Ever.",
+      "created": "2015-05-22T14:56:29.000Z",
+      "updated": "2015-05-22T14:56:28.000Z",
+      "authorId": "cbca3b9f-72a9-4836-a57c-ef801d65edc6"
+    },
+    {
+      "id": "d850ea75-4427-4f81-8595-039990aeede5",
+      "title": "Vivamus venenatis nisl ut laoreet porttitor.",
+      "body": "The shortest article. Ever.",
+      "created": "2015-05-22T14:56:29.000Z",
+      "updated": "2015-05-22T14:56:28.000Z",
+      "authorId": "cbca3b9f-72a9-4836-a57c-ef801d65edc6"
+    },
+    {
+      "id": "d850ea75-4427-4f81-8595-039990aeede5",
+      "title": "Suspendisse nec leo eu ex porta ultrices.",
+      "body": "The shortest article. Ever.",
+      "created": "2015-05-22T14:56:29.000Z",
+      "updated": "2015-05-22T14:56:28.000Z",
+      "authorId": "cbca3b9f-72a9-4836-a57c-ef801d65edc6"
+    },
+
+    {
+      "id": "66a4ee8e-0251-47ae-b6e5-75d34fede8c2",
+      "title": "Understanding JSON Schema",
+      "body": "A comprehensive guide to JSON Schema.",
+      "created": "2023-04-10T08:30:00.000Z",
+      "updated": "2023-04-10T08:30:00.000Z",
+      "authorId": "27d85199-3978-481e-9524-ce4992e62650"
+    },
+    {
+      "id": "c7f8f5f2-7b6b-4d0e-8f7b-3d5f5f089f6b",
+      "title": "The Future of JSON-LD",
+      "body": "A look into the future of JSON-LD.",
+      "created": "2023-04-10T08:30:00.000Z",
+      "updated": "2023-04-10T08:30:00.000Z",
+      "authorId": "27d85199-3978-481e-9524-ce4992e62650"
+    },
+    {
+      "id": "d9b3b8b3-6f6d-4f1f-8f7b-3d5f5f089f6b",
+      "title": "JSON-LD and Schema.org",
+      "body": "A guide to combining JSON-LD and Schema.org.",
+      "created": "2023-04-10T08:30:00.000Z",
+      "updated": "2023-04-10T08:30:00.000Z",
+      "authorId": "27d85199-3978-481e-9524-ce4992e62650"
+    },
+    {
+      "id": "d9b3b8b3-6f6d-4f1f-8f7b-3d5f5f089f6b",
+      "title": "Curabitur rhoncus diam at eros fermentum, vel tristique velit congue. Bhoncus diam at eros fermentum, vel tristique velit congue.",
+      "body": "A guide to combining JSON-LD and Schema.org.",
+      "created": "2023-04-10T08:30:00.000Z",
+      "updated": "2023-04-10T08:30:00.000Z",
+      "authorId": "27d85199-3978-481e-9524-ce4992e62650"
+    }
+  ],
+  "authors": [
+    {
+      "id": "27d85199-3978-481e-9524-ce4992e62650",
+      "name": "John",
+      "age": 80,
+      "gender": "male"
+    },
+    {
+      "id": "cbca3b9f-72a9-4836-a57c-ef801d65edc6",
+      "name": "Alice",
+      "age": 35,
+      "gender": "female"
+    },
+    {
+      "id": "d850ea75-4427-4f81-8595-039990aeede5",
+      "name": "Mike",
+      "age": 40,
+      "gender": "male"
+    },
+    {
+      "id": "9a1f7258-7f3d-4b5d-8b81-3dcf3e6e7b5f",
+      "name": "Nina",
+      "age": 25,
+      "gender": "female"
+    }
+  ]
+}

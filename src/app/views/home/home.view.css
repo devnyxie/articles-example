@@ -1,0 +1,22 @@
+.searchbar {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 5px 20px;
+  display: flex;
+}
+
+content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.container {
+  width: 100%;
+}
+
+:host {
+  width: 100%;
+}
