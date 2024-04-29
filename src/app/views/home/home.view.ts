@@ -4,19 +4,13 @@ import { RouterOutlet } from '@angular/router';
 import { Observable, Subject, of } from 'rxjs';
 import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
 import { ArticlesService } from '../../services/articles.service';
-
-export interface Article {
-  id: number;
-  title: string;
-  body: string;
-  createdAt?: string;
-  updatedAt?: string;
-}
+import { Article } from '../../interfaces/Article';
+import { ArticleLiComponent } from '../../shared/components/article-li.component';
 
 @Component({
   selector: 'home-root',
   standalone: true,
-  imports: [RouterOutlet, CommonModule],
+  imports: [RouterOutlet, CommonModule, ArticleLiComponent],
   templateUrl: './home.view.html',
   styleUrl: './home.view.css',
 })

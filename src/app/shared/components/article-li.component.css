@@ -1,0 +1,23 @@
+.article-body {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: max-content;
+  display: inline-block;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.article-li-heading {
+  margin: 0;
+}
+
+a {
+  display: flex;
+  align-items: start;
+}
+
+li {
+  margin-bottom: 12px;
+}

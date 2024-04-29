@@ -1,16 +1,16 @@
-<div class="container">
-  <input
-    class="searchbar"
-    type="text"
-    placeholder="Search..."
-    (input)="onSearch(filter.value)"
-    #filter
-    alt=""
-  />
+<input
+  class="searchbar"
+  type="text"
+  placeholder="Search..."
+  (input)="onSearch(filter.value)"
+  #filter
+  alt=""
+/>
 
-  <content>
-    <ul style="width: 100%">
-      <li *ngFor="let article of filteredArticles">{{ article.title }}</li>
-    </ul>
-  </content>
-</div>
+<section>
+  <ul style="width: 100%">
+    <app-article-li *ngFor="let article of filteredArticles" [article]="article"
+      >{{ article.title }}</app-article-li
+    >
+  </ul>
+</section>

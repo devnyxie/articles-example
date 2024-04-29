@@ -1,11 +1,10 @@
 import { Injectable } from '@angular/core';
-import { Article } from '../app.component';
+import { Article } from '../interfaces/Article';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ArticlesService {
-  // url = '/api/articles';
   url = 'http://localhost:3000/articles';
 
   async getAllArticles() {
@@ -19,7 +18,7 @@ export class ArticlesService {
     }
   }
 
-  async getArticleById(id: number): Promise<Article | undefined> {
+  async getArticleById(id: string): Promise<Article | undefined> {
     const data = await fetch(`${this.url}/${id}`);
     return (await data.json()) ?? {};
   }
